@@ -60,6 +60,8 @@
     "yamljs": "^0.3.0",
     "moment": "^2.24.0",
     "jquery": "^3.4.1",
+    "jquery-ui": "^1.12.1",
+    "jsplumb": "^2.14.6",
     "vue-draggable-resizable-gorkys": "^2.3.6",
     "v-contextmenu": "^2.9.0",
     "vue-runtime-helpers": "^1.1.2",
@@ -119,9 +121,7 @@
   "bugs": {
     "url": "https://github.com/armour/vue-typescript-admin-template/issues"
   },
-  "gitHooks": {
-    "pre-commit": "lint-staged"
-  },
+
   "keywords": [
     "vue",
     "typescript",
@@ -129,12 +129,7 @@
     "template",
     "element-ui"
   ],
-  "lint-staged": {
-    "*.{js,vue}": [
-      "vue-cli-service lint",
-      "git add"
-    ]
-  },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/armour/vue-typescript-admin-template.git"

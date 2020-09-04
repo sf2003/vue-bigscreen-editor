@@ -47,6 +47,15 @@ const bigScreenRouter: RouteConfig = {
         title: 'componentEditor',
         noCache: true
       }
+    },
+    {
+      path: 'modalEdit',
+      component: () => import('@/views/modal-edit/modalEditor.vue'),
+      name: 'ModalEdit',
+      meta: {
+        title: 'modalEdit',
+        noCache: true
+      }
     }
   ]
 }
